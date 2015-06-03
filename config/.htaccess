@@ -1,0 +1,13 @@
+# Deny direct access to wp-config.php
+<files wp-config.php>
+Order deny,allow
+deny from all
+</files>
+
+# Secure wp-login.php with .htpasswd
+<files wp-login.php>
+AuthName "Admin login"
+AuthType Basic
+AuthUserFile .htpasswd
+require valid-user
+</files>
