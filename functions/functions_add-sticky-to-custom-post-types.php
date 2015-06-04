@@ -1,6 +1,6 @@
 <?php
 /**
- * Add sticky option to custom post types.
+ * Add sticky option to custom post types
  */
 function ppt_sticky_meta() { ?>
   <input id="ppt-sticky" name="sticky" type="checkbox" value="sticky" <?php checked( is_sticky() ); ?> />

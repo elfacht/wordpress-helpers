@@ -1,6 +1,6 @@
 <?php
   /**
-   * Display time of submitted comment in human time.
+   * Display time of submitted comment in human time
    *
    * Replace first parameter with time of submitted comment.
    * Replace second parameter with current time.

@@ -1,6 +1,6 @@
 <?php
 /**
- * Hide email from Spam Bots using a shortcode.
+ * Hide email from Spam Bots using a shortcode
  *
  * Usage: [email]foo@bar.com[/email]
  *

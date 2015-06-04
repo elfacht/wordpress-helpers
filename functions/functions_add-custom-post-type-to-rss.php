@@ -1,6 +1,6 @@
 <?php
 /**
- * Add custom post type to RSS feed.
+ * Add custom post type to RSS feed
  */
 function cpt_rss_feed($qv) {
   if (isset($qv['feed']))

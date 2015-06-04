@@ -1,6 +1,6 @@
 <?php
 /**
- * Adds custom post types to author page.
+ * Adds custom post types to author page
  */
 add_action('pre_get_posts', 'e8_add_custom_type_to_query');
 

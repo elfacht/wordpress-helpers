@@ -1,6 +1,6 @@
 <?php
 /**
- * Remove version number from JavaScript and CSS files.
+ * Remove version number from JavaScript and CSS files
  */
 add_filter( 'script_loader_src', 'remove_src_version' );
 add_filter( 'style_loader_src', 'remove_src_version' );
