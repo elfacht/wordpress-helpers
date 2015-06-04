@@ -1,3 +1,4 @@
+<?php
 /**
  * Remove version number from JavaScript and CSS files.
  */
@@ -17,3 +18,4 @@ function remove_src_version ( $src ) {
     return $src;
 
 }
+?>

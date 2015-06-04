@@ -1,3 +1,4 @@
+<?php
 /**
  * Remove widgets from WordPress
  */
@@ -19,3 +20,4 @@ function e8_disable_default_widgets() {
 }
 
 add_action('widgets_init', 'e8_disable_default_widgets', 11);
+?>

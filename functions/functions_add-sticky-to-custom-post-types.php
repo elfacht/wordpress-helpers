@@ -1,3 +1,4 @@
+<?php
 /**
  * Add sticky option to custom post types.
  */
@@ -16,3 +17,4 @@ function e8_add_sticky_box() {
     add_meta_box( 'ppt_sticky_meta', __( 'Featured' ), 'ppt_sticky_meta', $post_type, 'side', 'high' );
 }
 add_action( 'admin_init', 'e8_add_sticky_box' );
+?>

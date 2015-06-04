@@ -1,3 +1,4 @@
+<?php
 /**
  * Hide email from Spam Bots using a shortcode.
  *
@@ -20,3 +21,5 @@ function wpcodex_hide_email_shortcode($atts , $content = null) {
 }
 
 add_shortcode( 'email', 'wpcodex_hide_email_shortcode' );
+?>
+

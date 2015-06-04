@@ -1,3 +1,4 @@
+<?php
 /**
  * Add custom post type to RSS feed.
  */
@@ -8,3 +9,4 @@ function cpt_rss_feed($qv) {
   return $qv;
 }
 add_filter('request', 'cpt_rss_feed');
+?>

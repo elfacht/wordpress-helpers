@@ -1,3 +1,4 @@
+<?php
 /**
  * Adds custom post types to author page.
  */
@@ -11,3 +12,4 @@ function e8_add_custom_type_to_query( $notused ){
     }
   }
 }
+?>

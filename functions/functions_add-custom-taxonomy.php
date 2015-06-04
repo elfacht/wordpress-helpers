@@ -1,3 +1,4 @@
+<?php
 /**
  * Add custom taxonomy
  */
@@ -16,3 +17,4 @@ function create_tracks_compilations() {
     )
   );
 }
+?>

@@ -1,3 +1,4 @@
+<?php
 /**
  * Disbale plugin deactivation, removes the deactivation link.
  */
@@ -13,3 +14,4 @@ function e8_lock_plugins($actions, $plugin_file, $plugin_data, $context) {
   unset($actions['deactivate']);
   return $actions;
 }
+?>
