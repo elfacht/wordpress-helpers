@@ -21,7 +21,7 @@
 * [functions_disable-plugin-deactivation.php](functions/functions_disable-plugin-deactivation.php) – Disbale plugin deactivation, removes the deactivation link
 * [functions_disbale-IP-comments.php](functions/functions_disbale-IP-comments.php) – Disable IP address in comments for more privacy
 * [functions_encode-email-shortcode.php](functions/functions_encode-email-shortcode.php) – Hide email from Spam Bots using a shortcode
-* [functions_remove-excerpt-paragraphs.php](functions/functions_remove-excerpt-paragraphs.php) – Remove paragraphs (<p>) in excerpt
+* [functions_remove-excerpt-paragraphs.php](functions/functions_remove-excerpt-paragraphs.php) – Remove paragraphs in excerpt
 * [functions_remove-featured-image.php](functions/functions_remove-featured-image.php) – Remove featured image on static pages
 * [functions_remove-generator-tag.php](functions/functions_remove-generator-tag.php) – Remove WordPress generator tag from <head>
 * [functions_remove-version-number-from-scripts.php](functions/functions_remove-version-number-from-scripts.php) – Remove version number from JavaScript and CSS files
