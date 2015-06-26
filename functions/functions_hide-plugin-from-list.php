@@ -1,6 +1,8 @@
 <?php
 /**
  * Hide a specific plugin from the plugin directory list
+ *
+ * Source: http://www.trickspanda.com/2014/02/hide-wordpress-plugin-plugin-list/
  */
 function hide_plugin_trickspanda() {
   global $wp_list_table;
