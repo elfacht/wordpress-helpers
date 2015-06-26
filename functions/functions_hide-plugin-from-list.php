@@ -15,4 +15,17 @@ function hide_plugin_trickspanda() {
 
 add_action('pre_current_active_plugins', 'hide_plugin_trickspanda');
 
+/**
+ * Use this for multisites
+ */
+function mu_hide_plugins_network( $plugins ) {
+    // let's hide akismet
+    if( in_array( 'akismet/akismet.php', array_keys( $plugins ) ) ) {
+        unset( $plugins['akismet/akismet.php'] );
+    }
+    return $plugins;
+}
+
+add_filter( 'all_plugins', 'mu_hide_plugins_network' );
+
 ?>
