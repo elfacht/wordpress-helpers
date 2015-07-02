@@ -25,7 +25,8 @@
 * [functions_hide-plugin-from-list.php](functions/functions_hide-plugin-from-list.php) – Hide a specific plugin from the plugin directory list
 * [functions_remove-excerpt-paragraphs.php](functions/functions_remove-excerpt-paragraphs.php) – Remove paragraphs in excerpt
 * [functions_remove-featured-image.php](functions/functions_remove-featured-image.php) – Remove featured image on static pages
-* [functions_remove-generator-tag.php](functions/functions_remove-generator-tag.php) – Remove WordPress generator tag from <head>
+* [functions_remove-generator-tag.php](functions/functions_remove-generator-tag.php) – Remove WordPress generator tag from the head
+* [functions_remove-jetpack-css.php](functions/functions_remove-jetpack-css.php) – Remove all unwanted Jetpack CSS components from the head
 * [functions_remove-version-number-from-scripts.php](functions/functions_remove-version-number-from-scripts.php) – Remove version number from JavaScript and CSS files
 * [functions_remove-widgets.php](functions/functions_remove-widgets.php) – Remove widgets from WordPress
 * [functions_rename-paged-slug.php](functions/functions_rename-paged-slug.php) – Rename paginated pages slug, like i.e. 'seite'
